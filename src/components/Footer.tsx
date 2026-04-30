@@ -15,7 +15,7 @@ const Container = styled.div`
 
 const Footer: FC = () => {
     return <Container>
-        © 2024 Fatima A. Moussaoui
+        © 2026 Fatima A. Moussaoui
     </Container>
 }
 

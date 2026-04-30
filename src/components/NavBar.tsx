@@ -133,7 +133,7 @@ const NavBar: FC = () => {
         <ul>
             {/* <Button>CV</Button> */}
             {/* <Button>RESUME</Button> */}
-            <LinkHolder><a className='lengthen' href="MoussaouiFA_CV.pdf">CV</a></LinkHolder>
+            <LinkHolder><a className='lengthen' href="2026-MoussaouiFA_CV.pdf">CV</a></LinkHolder>
 
             {isDesktopOrLaptop && <>
                 <LinkHolder className="End"><NavLink to="/">ABOUT</NavLink></LinkHolder>

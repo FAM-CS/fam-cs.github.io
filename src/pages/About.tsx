@@ -5,7 +5,7 @@ import TextPanel from '../components/TextPanel'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faGoogleScholar, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -70,7 +70,7 @@ const ProfilePicture = styled.div`
 const Bio = styled.div`
     font-size: 20px;
     text-align: left;
-    width: 180px;
+    width: 200px;
     .greeting {
         font-weight: 600;
         font-size: 24px;
@@ -140,23 +140,27 @@ const About: FC<AppProps> = ({ title }) => {
                 <span className='greeting'>
                     Hi, I'm Fatima A. Moussaoui <br/>
                 </span>
-                Student<br/>
-                Researcher
+                MS/PhD Student,<br/>
+                Graduate Researcher
             </Bio>
         </Synopsis>
         <TextPanel>
             <p>
-                I'm a Computer Science student and an undergraduate researcher at Oregon State University,
-                where I work on making technology more inclusive and humane through the lens of Human-Computer Interaction.
-                As both an undegraduate research and teaching assistant, I'm passionate about bringing diverse perspectives into tech&mdash;whether that's through conducting inclusive design research or helping CS students find their footing.
-                When I am not debugging interfaces or code, I enjoy drawing, reading, or getting through my never-shrinking watch list.
+                I'm a Computer Science MS/PhD student and Graduate Research Assistant at Oregon State University,
+                advised by Margaret Burnett and Anita Sarma.
+                I work on making technology more inclusive and humane through the lens of Human-Computer Interaction.
+                I'm passionate about bringing diverse perspectives into tech&mdash;whether that's through conducting inclusive design research or mentoring others in CS.
+                When I am not researching or debugging interfaces, I enjoy drawing, reading, or getting through my never-shrinking watch list.
             </p>
 
             <Socials>
                 <h1>Links</h1>
                 <ul>
                     <li>
-                        <Link to="#"><FontAwesomeIcon className='icon' icon={faEnvelope}/>fatima.a.moussaoui AT gmail DOT com</Link>
+                        <Link to="#"><FontAwesomeIcon className='icon' icon={faEnvelope}/>fatima.a.moussaoui AT proton DOT me</Link>
+                    </li>
+                    <li>
+                        <Link to="/2026-MoussaouiFA_CV.pdf" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon' icon={faFile}/>curriculum vitae</Link>
                     </li>
                     <li>
                         <Link to="https://scholar.google.com/citations?user=RpH7aJ8AAAAJ&hl=en"><FontAwesomeIcon className='icon' icon={faGoogleScholar}/>scholar</Link>
