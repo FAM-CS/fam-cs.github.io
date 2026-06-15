@@ -157,7 +157,7 @@ const About: FC<AppProps> = ({ title }) => {
                 <h1>Links</h1>
                 <ul>
                     <li>
-                        <Link to="#"><FontAwesomeIcon className='icon' icon={faEnvelope}/>fatima.a.moussaoui AT proton DOT me</Link>
+                        <Link to="#"><FontAwesomeIcon className='icon' icon={faEnvelope}/>f.moussaoui AT pm DOT me</Link>
                     </li>
                     <li>
                         <Link to="/2026-MoussaouiFA_CV.pdf" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon' icon={faFile}/>curriculum vitae</Link>
